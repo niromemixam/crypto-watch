@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "%PUBLIC_URL%/static/css/main.74548fc3.css",
-    "main.js": "%PUBLIC_URL%/static/js/main.40cc0dad.js",
-    "static/media/wave.svg": "%PUBLIC_URL%/static/media/wave.5002a8c0fe2c7c5defc6.svg",
-    "index.html": "%PUBLIC_URL%/index.html",
-    "main.74548fc3.css.map": "%PUBLIC_URL%/static/css/main.74548fc3.css.map",
-    "main.40cc0dad.js.map": "%PUBLIC_URL%/static/js/main.40cc0dad.js.map"
+    "main.css": "/crypto-watch/static/css/main.b02c496f.css",
+    "main.js": "/crypto-watch/static/js/main.e1c258c9.js",
+    "static/media/wave.svg": "/crypto-watch/static/media/wave.5002a8c0fe2c7c5defc6.svg",
+    "index.html": "/crypto-watch/index.html",
+    "main.b02c496f.css.map": "/crypto-watch/static/css/main.b02c496f.css.map",
+    "main.e1c258c9.js.map": "/crypto-watch/static/js/main.e1c258c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.74548fc3.css",
-    "static/js/main.40cc0dad.js"
+    "static/css/main.b02c496f.css",
+    "static/js/main.e1c258c9.js"
   ]
 }
