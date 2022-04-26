@@ -42,7 +42,7 @@ function StarIcon({ coinId }) {
   return (
     <img
       onClick={() => idChecker(coinId)}
-      src={like ? "./assets/star-full.svg" : "./assets/star-empty.svg"}
+      src={like ? (process.env.PUBLIC_URL + "/assets/star-full.svg") : (process.env.PUBLIC_URL + "/assets/star-empty.svg")}
       alt="icon-star"
     />
   );

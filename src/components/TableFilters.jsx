@@ -39,7 +39,7 @@ function TableFilters() {
           />
           <label htmlFor="favoris">
             Liste des Favoris
-            <img src="./assets/star-full.svg" alt="icon star" />
+            <img src={process.env.PUBLIC_URL + "/assets/star-full.svg"} alt="icon star" />
           </label>
         </div>
         <div className="search-container">

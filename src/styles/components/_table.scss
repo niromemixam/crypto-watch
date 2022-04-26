@@ -19,6 +19,9 @@
     @media screen and (max-width: 540px) {
       grid-template-columns: 170px 80px repeat(4, 1fr);
     }
+    @media screen and (max-width: 470px) {
+      grid-template-columns: 150px 80px repeat(4, 1fr);
+    }
   }
   .table-header {
     height: 44px;
@@ -26,6 +29,10 @@
     width: 100%;
     z-index: 100000;
     transition: 0;
+
+    li:last-child {
+      margin-right: 10px;
+    }
 
     &.active {
       position: fixed;
@@ -100,7 +107,7 @@
           width: 70%;
         }
         @media screen and (max-width: 540px) {
-          display: none;;
+          display: none;
         }
       }
       input[type="range"]::-webkit-slider-runnable-track {
@@ -156,6 +163,10 @@
     position: relative;
     color: $white1;
     transition: 0.15s;
+
+    p:last-child {
+      margin-right: 10px;
+    }
 
     @media screen and (max-width: 1020px) {
       font-size: 0.8rem;
@@ -238,6 +249,10 @@
         }
         a {
           transform: translateY(2px);
+
+          @media screen and (max-width: 470px) {
+            display: none;
+          }
         }
         h4 {
           margin-left: 6px;
@@ -288,7 +303,7 @@
             visibility: hidden;
             z-index: 10;
           }
-          
+
           &:hover {
             .go-to-info {
               visibility: visible;

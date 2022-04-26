@@ -36,7 +36,7 @@ function TableLine({ coin, index }) {
             onMouseEnter={() => setShowChart(true)}
             onMouseLeave={() => setShowChart(false)}
           >
-            <img src="./assets/chart-icon.svg" alt="chart-icon" />
+            <img src={process.env.PUBLIC_URL + "/assets/chart-icon.svg"} alt="chart-icon" />
             <div className="chart-container" id={coin.name}>
               {showChart && <CoinChart coinId={coin.id} coinName={coin.name} />}
             </div>
@@ -53,7 +53,7 @@ function TableLine({ coin, index }) {
             rel="noreferrer noopener"
           >
             <div className="coingecko-container">
-              <img src="./assets/info-icon.svg" alt="" />
+              <img src={process.env.PUBLIC_URL + "/assets/info-icon.svg"} alt="" />
               <span className="go-to-info">Go to see {coin.name} on CoinGecko</span>
             </div>
           </a>

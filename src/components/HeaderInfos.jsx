@@ -17,7 +17,7 @@ function HeaderInfos() {
       <ul className="title">
         <li>
           <h1>
-            <img src="./assets/chart-icon.svg" alt="logo" /> Crypto Watch
+            <img src={process.env.PUBLIC_URL + "/assets/chart-icon.svg"} alt="logo" /> Crypto Watch
           </h1>
         </li>
         <li>

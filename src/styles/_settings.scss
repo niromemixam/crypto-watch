@@ -32,6 +32,10 @@ $shadow: 0 5px 15px rgba(0, 0, 0, 0.322);
 
 html {
   scroll-behavior: smooth;
+
+  @media screen and (orientation: portrait) and (max-width: 540px) {
+    background-color: #333333;
+  }
 }
 
 body {
@@ -42,6 +46,9 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   min-height: 100vh;
+}
+.app-container {
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 li {
   list-style: none;

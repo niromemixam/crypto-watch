@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setFavLength } from "../actions/fav.action";
-import favReducer from "../reducers/fav.reducer";
 import TableLine from "./TableLine";
 import ToTop from "./ToTop";
 
